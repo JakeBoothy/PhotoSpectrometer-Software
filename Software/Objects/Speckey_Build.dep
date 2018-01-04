@@ -1,0 +1,756 @@
+Dependencies for Project 'Speckey', Target 'Build': (DO NOT MODIFY !)
+F (.\SDK\devices\MK02F12810\arm\startup_MK02F12810.s)(0x5A00F15A)(--cpu Cortex-M4.fp --pd "__RTX SETA 1" -g --apcs=interwork -IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include--pd "__UVISION_VERSION SETA 521" --pd "_RTE_ SETA 1" --pd "MK02FN64xxx10 SETA 1" --pd "DEBUG SETA 1"--list .\listings\startup_mk02f12810.lst -o .\objects\startup_mk02f12810.o --depend .\objects\startup_mk02f12810.d)
+F (.\SDK\devices\MK02F12810\system_MK02F12810.c)(0x5A066ED4)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\system_mk02f12810.o --omf_browse .\objects\system_mk02f12810.crf --depend .\objects\system_mk02f12810.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (SDK\devices\MK02F12810\fsl_device_registers.h)(0x5A00F15A)
+I (SDK\devices\MK02F12810\MK02F12810.h)(0x5A00F15A)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (SDK\devices\MK02F12810\system_MK02F12810.h)(0x5A00F159)
+I (SDK\devices\MK02F12810\MK02F12810_features.h)(0x5A00F159)
+F (.\SDK\devices\MK02F12810\system_MK02F12810.h)(0x5A00F159)()
+F (.\fsl_drivers\fsl_adc16.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_adc16.o --omf_browse .\objects\fsl_adc16.crf --depend .\objects\fsl_adc16.d)
+I (fsl_drivers\fsl_adc16.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_adc16.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_clock.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_clock.o --omf_browse .\objects\fsl_clock.crf --depend .\objects\fsl_clock.d)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+F (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_cmp.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_cmp.o --omf_browse .\objects\fsl_cmp.crf --depend .\objects\fsl_cmp.d)
+I (fsl_drivers\fsl_cmp.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_cmp.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_common.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_common.o --omf_browse .\objects\fsl_common.crf --depend .\objects\fsl_common.d)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\utilities\fsl_debug_console.h)(0x5A00F15A)
+F (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)()
+F (.\fsl_drivers\fsl_crc.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_crc.o --omf_browse .\objects\fsl_crc.crf --depend .\objects\fsl_crc.d)
+I (fsl_drivers\fsl_crc.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_crc.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_dac.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_dac.o --omf_browse .\objects\fsl_dac.crf --depend .\objects\fsl_dac.d)
+I (fsl_drivers\fsl_dac.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_dac.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_dmamux.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_dmamux.o --omf_browse .\objects\fsl_dmamux.crf --depend .\objects\fsl_dmamux.d)
+I (fsl_drivers\fsl_dmamux.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_dmamux.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_dspi.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_dspi.o --omf_browse .\objects\fsl_dspi.crf --depend .\objects\fsl_dspi.d)
+I (fsl_drivers\fsl_dspi.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_dspi.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_dspi_edma.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_dspi_edma.o --omf_browse .\objects\fsl_dspi_edma.crf --depend .\objects\fsl_dspi_edma.d)
+I (fsl_drivers\fsl_dspi_edma.h)(0x5A00F15A)
+I (fsl_drivers\fsl_dspi.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (fsl_drivers\fsl_edma.h)(0x5A00F15C)
+F (.\fsl_drivers\fsl_dspi_edma.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_edma.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_edma.o --omf_browse .\objects\fsl_edma.crf --depend .\objects\fsl_edma.d)
+I (fsl_drivers\fsl_edma.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_edma.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_ewm.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_ewm.o --omf_browse .\objects\fsl_ewm.crf --depend .\objects\fsl_ewm.d)
+I (fsl_drivers\fsl_ewm.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_ewm.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_flash.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_flash.o --omf_browse .\objects\fsl_flash.crf --depend .\objects\fsl_flash.d)
+I (fsl_drivers\fsl_flash.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_flash.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_ftm.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_ftm.o --omf_browse .\objects\fsl_ftm.crf --depend .\objects\fsl_ftm.d)
+I (fsl_drivers\fsl_ftm.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_ftm.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_gpio.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
+I (fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_i2c.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_i2c.o --omf_browse .\objects\fsl_i2c.crf --depend .\objects\fsl_i2c.d)
+I (fsl_drivers\fsl_i2c.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_i2c.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_i2c_edma.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_i2c_edma.o --omf_browse .\objects\fsl_i2c_edma.crf --depend .\objects\fsl_i2c_edma.d)
+I (fsl_drivers\fsl_i2c_edma.h)(0x5A00F15A)
+I (fsl_drivers\fsl_i2c.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (fsl_drivers\fsl_dmamux.h)(0x5A00F15A)
+I (fsl_drivers\fsl_edma.h)(0x5A00F15C)
+F (.\fsl_drivers\fsl_i2c_edma.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_llwu.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_llwu.o --omf_browse .\objects\fsl_llwu.crf --depend .\objects\fsl_llwu.d)
+I (fsl_drivers\fsl_llwu.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_llwu.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_lptmr.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_lptmr.o --omf_browse .\objects\fsl_lptmr.crf --depend .\objects\fsl_lptmr.d)
+I (fsl_drivers\fsl_lptmr.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_lptmr.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_pdb.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_pdb.o --omf_browse .\objects\fsl_pdb.crf --depend .\objects\fsl_pdb.d)
+I (fsl_drivers\fsl_pdb.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_pdb.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_pit.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_pit.o --omf_browse .\objects\fsl_pit.crf --depend .\objects\fsl_pit.d)
+I (fsl_drivers\fsl_pit.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_pit.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_pmc.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_pmc.o --omf_browse .\objects\fsl_pmc.crf --depend .\objects\fsl_pmc.d)
+I (fsl_drivers\fsl_pmc.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_pmc.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_port.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_rcm.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_rcm.o --omf_browse .\objects\fsl_rcm.crf --depend .\objects\fsl_rcm.d)
+I (fsl_drivers\fsl_rcm.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_rcm.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_sim.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_sim.o --omf_browse .\objects\fsl_sim.crf --depend .\objects\fsl_sim.d)
+I (fsl_drivers\fsl_sim.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_sim.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_smc.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_smc.o --omf_browse .\objects\fsl_smc.crf --depend .\objects\fsl_smc.d)
+I (fsl_drivers\fsl_smc.h)(0x5A00F15C)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (fsl_drivers\fsl_flash.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_smc.h)(0x5A00F15C)()
+F (.\fsl_drivers\fsl_uart.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_uart.o --omf_browse .\objects\fsl_uart.crf --depend .\objects\fsl_uart.d)
+I (fsl_drivers\fsl_uart.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_uart.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_uart_edma.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_uart_edma.o --omf_browse .\objects\fsl_uart_edma.crf --depend .\objects\fsl_uart_edma.d)
+I (fsl_drivers\fsl_uart_edma.h)(0x5A00F15A)
+I (fsl_drivers\fsl_uart.h)(0x5A00F15A)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (fsl_drivers\fsl_dmamux.h)(0x5A00F15A)
+I (fsl_drivers\fsl_edma.h)(0x5A00F15C)
+F (.\fsl_drivers\fsl_uart_edma.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_vref.c)(0x5A00F15C)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_vref.o --omf_browse .\objects\fsl_vref.crf --depend .\objects\fsl_vref.d)
+I (fsl_drivers\fsl_vref.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\fsl_drivers\fsl_vref.h)(0x5A00F15B)()
+F (.\fsl_drivers\fsl_wdog.c)(0x5A00F15B)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_wdog.o --omf_browse .\objects\fsl_wdog.crf --depend .\objects\fsl_wdog.d)
+I (fsl_drivers\fsl_wdog.h)(0x5A00F15B)
+I (fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\startup\fsl_device_registers.h)(0x5A00F15A)()
+F (.\fsl_drivers\fsl_wdog.h)(0x5A00F15B)()
+F (.\utilities\fsl_debug_console.c)(0x5A00F15A)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x574EF4F6)
+I (utilities\fsl_debug_console.h)(0x5A00F15A)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_uart.h)(0x5A00F15A)
+F (.\utilities\fsl_debug_console.h)(0x5A00F15A)()
+F (.\pin_mux.c)(0x5A1E1D98)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_port.h)(0x5A00F15A)
+I (pin_mux.h)(0x5A1DADD7)
+F (.\board.c)(0x5A01FDF6)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\utilities\fsl_debug_console.h)(0x5A00F15A)
+I (board.h)(0x5A021F3A)
+I (clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+F (.\clock_config.c)(0x5A1C7E42)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
+I (clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+F (.\main.c)(0x5A1F2669)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x57D8659E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574EF4F6)
+I (board.h)(0x5A021F3A)
+I (clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+I (.\utilities\fsl_debug_console.h)(0x5A00F15A)
+I (pin_mux.h)(0x5A1DADD7)
+I (gpio.h)(0x5A061A63)
+I (uart.h)(0x5A022A69)
+I (.\fsl_drivers\fsl_uart.h)(0x5A00F15A)
+I (adc.h)(0x5A1A0ECE)
+I (timers.h)(0x5A1F16AB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EF4F6)
+F (.\gpio.c)(0x5A1D9AE4)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (pin_mux.h)(0x5A1DADD7)
+I (gpio.h)(0x5A061A63)
+I (board.h)(0x5A021F3A)
+I (clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+F (.\uart.c)(0x5A1F25F5)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EF4F6)
+I (.\fsl_drivers\fsl_uart.h)(0x5A00F15A)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (uart.h)(0x5A022A69)
+F (.\adc.c)(0x5A1CE07F)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (adc.h)(0x5A1A0ECE)
+I (.\fsl_drivers\fsl_adc16.h)(0x5A00F15C)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_edma.h)(0x5A00F15C)
+F (.\timers.c)(0x5A1F6884)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (.\fsl_drivers\fsl_pit.h)(0x5A00F15C)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x57D8659E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574EF4F6)
+I (gpio.h)(0x5A061A63)
+I (board.h)(0x5A021F3A)
+I (clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+I (pin_mux.h)(0x5A1DADD7)
+I (.\fsl_drivers\fsl_adc16.h)(0x5A00F15C)
+I (.\fsl_drivers\fsl_ftm.h)(0x5A00F15B)
+I (adc.h)(0x5A1A0ECE)
+I (uart.h)(0x5A022A69)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EF4F6)
+F (.\pin_mux.h)(0x5A1DADD7)()
+F (.\board.h)(0x5A021F3A)()
+F (.\clock_config.h)(0x5A010254)()
+F (.\gpio.h)(0x5A061A63)()
+F (.\uart.h)(0x5A022A69)()
+F (.\adc.h)(0x5A1A0ECE)()
+F (.\timers.h)(0x5A1F16AB)()
+F (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib)(0x57D8659E)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5A0236B3)(--c99 -c --cpu Cortex-M4.fp -D__RTX -g -O0 --apcs=interwork --split_sections -I . -I .\fsl_drivers -I .\startup -I .\utilities -I .\SDK\devices\MK02F12810 -I .\SDK\devices\MK02F12810\drivers -I .\SDK\devices\MK02F12810\utilities -I .\SDK\CMSIS\Include --library_interface=armcc --library_type=standardlib --diag_suppress=66,1296,186-IC:\Users\JakeBooth\Desktop\Photospectrometer\Software\RTE-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\Include-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_K00_DFP\1.0.0\Device\Include-D__UVISION_VERSION="521" -D_RTE_ -DMK02FN64xxx10 -DCPU_MK02FN64VLF10-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x57D8659E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x574EF4F6)
+I (.\uart.h)(0x5A022A69)
+I (.\gpio.h)(0x5A061A63)
+I (.\board.h)(0x5A021F3A)
+I (.\clock_config.h)(0x5A010254)
+I (.\fsl_drivers\fsl_common.h)(0x5A00F5F3)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x574EF4F6)
+I (.\startup\fsl_device_registers.h)(0x5A00F15A)
+I (.\startup\MK02F12810.h)(0x5A04F593)
+I (.\SDK\CMSIS\Include\core_cm4.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmInstr.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\cmsis_armcc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmFunc.h)(0x5A00F0CD)
+I (.\SDK\CMSIS\Include\core_cmSimd.h)(0x5A00F0CD)
+I (.\startup\system_MK02F12810.h)(0x5A00F159)
+I (.\startup\MK02F12810_features.h)(0x5A00F159)
+I (.\fsl_drivers\fsl_clock.h)(0x5A00F15B)
+I (.\fsl_drivers\fsl_gpio.h)(0x5A00F15A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574EF4F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0-Beta12\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x57D8659E)
